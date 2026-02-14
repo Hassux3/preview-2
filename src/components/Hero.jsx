@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Hero = () => {
   const canvasRef = useRef(null);

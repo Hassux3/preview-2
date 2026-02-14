@@ -163,7 +163,7 @@ const ContactFooter = () => {
               {[Twitter, Linkedin, Github, Globe].map((Icon, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href="/#"
                   className="w-10 h-10 rounded-full glass-card flex items-center justify-center hover:bg-[#00D4FF] hover:text-black transition-all"
                 >
                   <Icon size={18} />
@@ -255,13 +255,13 @@ const ContactFooter = () => {
             <span>&copy; 2026 All Rights Reserved.</span>
           </div>
           <div className="flex gap-8">
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="/#" className="hover:text-white transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="/#" className="hover:text-white transition-colors">
               Terms of Service
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="/#" className="hover:text-white transition-colors">
               GDPR
             </a>
           </div>

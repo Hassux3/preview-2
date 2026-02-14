@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Code, HardDrive, Shield, CheckCircle2 } from "lucide-react";
+import { Code, HardDrive, Shield, CheckCircle2 } from "lucide-react";
 
 const Products = () => {
   const products = [
