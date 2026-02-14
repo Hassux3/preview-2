@@ -9,52 +9,30 @@
 }
 
 
-/* ================================
-   Custom Scrollbar – Light Theme
-   ================================ */
-
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(99, 102, 241, 0.25); /* indigo-500 */
-  border-radius: 999px;
-  border: 2px solid transparent;
-  background-clip: content-box;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(99, 102, 241, 0.45);
-}
-
-::-webkit-scrollbar-corner {
-  background: transparent;
-}
-
-/* ================================
-   Firefox Support
-   ================================ */
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(99, 102, 241, 0.35) transparent;
-}
-
-
-.dark ::-webkit-scrollbar-thumb {
-  background-color: rgba(165, 180, 252, 0.25); /* indigo-300 */
-}
-
-.dark ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(165, 180, 252, 0.45);
-}
-
-.dark * {
-  scrollbar-color: rgba(165, 180, 252, 0.35) transparent;
-}
+body {
+        font-family: 'Inter', sans-serif;
+        background-color: #030712;
+        color: white;
+        overflow-x: hidden;
+      }
+      .font-orbitron {
+        font-family: 'Orbitron', sans-serif;
+      }
+      .glass-card {
+        background: rgba(17, 24, 39, 0.7);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .neon-glow-blue {
+        box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+      }
+      .neon-text-purple {
+        text-shadow: 0 0 10px rgba(139, 92, 246, 0.8);
+      }
+      @keyframes pulse-glow {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.05); opacity: 0.8; }
+      }
+      .animate-pulse-glow {
+        animation: pulse-glow 2s ease-in-out infinite;
+      }
